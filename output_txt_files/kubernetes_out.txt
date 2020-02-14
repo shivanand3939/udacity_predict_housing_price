@@ -1,1 +1,10 @@
-<paste log output from Kubernetes-mediated prediction, here>
+kubectl run --generator=deployment/apps.v1 is DEPRECATED and will be removed in a future version. Use kubectl run --generator=run-pod/v1 or kubectl create instead.
+deployment.apps/predict-housing-price3 created
+NAME                                      READY   STATUS    RESTARTS   AGE
+predict-housing-price-659bf674df-kq4fr    1/1     Running   1          80d
+predict-housing-price1-9866c5c5d-xgtbc    1/1     Running   0          19m
+predict-housing-price2-5856778b5d-ssjnv   1/1     Running   0          7m21s
+service/predict-housing-price3 exposed
+Forwarding from 127.0.0.1:8000 -> 80
+Forwarding from [::1]:8000 -> 80
+Handling connection for 8000
